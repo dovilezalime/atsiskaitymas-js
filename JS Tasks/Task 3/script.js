@@ -28,7 +28,7 @@ document.querySelector('button').addEventListener('click', e => {
               document.getElementById('output').append(img, login);
               login.style.color = 'black';
           });
-  //======================================2===================================
+  //========
       document.getElementById('message').style.display = 'none'; 
       });
   

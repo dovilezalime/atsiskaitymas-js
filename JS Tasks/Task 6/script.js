@@ -19,3 +19,25 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+//1funkcija
+
+const getUserAverageAge = (averageAge) => {
+  const summedAges =  averageAge.reduce((prev, curr) => {
+    prev = prev + curr.age;
+    return prev;
+  },0)
+
+  return summedAges / averageAge.length;
+}
+console.log(getUserAverageAge(users));
+
+//2funkcija
+const getUsersNames = (userNames) => {
+  const users = userNames.reduce((prev, curr) => {
+    prev.push(curr.name);
+    return prev;
+  },[])
+  return users;
+}
+console.log(getUsersNames(users))
