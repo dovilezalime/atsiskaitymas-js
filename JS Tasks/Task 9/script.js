@@ -20,6 +20,6 @@ class Movie {
            return this.budget >= 100000000 ?true :false;
         }
     }
-
+    
     const newMovie = new Movie('Avatar', 'James Cameron', 1000000);
     console.log(newMovie.wasExpensive());
