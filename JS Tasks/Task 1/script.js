@@ -11,10 +11,8 @@ Pastaba: rezultatas turi būti matomas pateikus formą ir atvaizduojamas
 document.getElementById('submit-btn').addEventListener ('click',(e)=> {
     e.preventDefault();
     const value = document.getElementById('search').value;
-    document.getElementById('output').innerText ='svarai(lb)'+ value * 2.2046 +
-     '\n' +'gramai(g)' + value / 0.001000 + '\n' +'uncijos(oz)'+ value * 35.274;
+    document.getElementById('output').innerText ='Svarai(lb)'+ value * 2.2046 +
+     '\n' +'Gramai(g)' + value / 0.001000 + '\n' +'Uncijos(oz)'+ value * 35.274;
      
 })
-
 document.getElementById("output").style = "padding: 8px 8px; margin: 0px 50px; color: red; border: 2px solid black"
-	
