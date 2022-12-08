@@ -26,7 +26,7 @@ document.querySelector('button').addEventListener('click', e => {
               const img = document.createElement('img');
               img.src = element.avatar_url;
               document.getElementById('output').append(img, login);
-              login.style.color = 'black';
+              login.style.color = 'red';
           });
   //========
       document.getElementById('message').style.display = 'none'; 
