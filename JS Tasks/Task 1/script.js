@@ -13,4 +13,8 @@ document.getElementById('submit-btn').addEventListener ('click',(e)=> {
     const value = document.getElementById('search').value;
     document.getElementById('output').innerText ='svarai(lb)'+ value * 2.2046 +
      '\n' +'gramai(g)' + value / 0.001000 + '\n' +'uncijos(oz)'+ value * 35.274;
+     
 })
+
+
+	
