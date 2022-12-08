@@ -16,5 +16,5 @@ document.getElementById('submit-btn').addEventListener ('click',(e)=> {
      
 })
 
-
+document.getElementById("output").style = "padding: 8px 8px; margin: 0px 50px; color: red; border: 2px solid black"
 	
